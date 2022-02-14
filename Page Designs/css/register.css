@@ -1,0 +1,53 @@
+.create-account-page-wrapper .create-account-row .personal-information {
+    margin-bottom: 32px;
+}
+
+.create-account-page-wrapper .create-account-row .personal-information-header {
+    margin-bottom: 20px;
+}
+
+.create-account-page-wrapper .create-account-row .personal-information-header h2 {
+    margin-bottom: 32px;
+}
+
+.create-account-page-wrapper .create-account-row .personal-information-header h2::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.create-account-page-wrapper .create-account-row p {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.create-account-page-wrapper .create-account-row .form-row-wrapper {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create-account-page-wrapper .create-account-row .form-row-wrapper .form-col {
+    flex: 0 0 50%;
+    padding: 0px 15px;
+    position: relative;
+    max-width: 50%;
+}
+
+.create-account-page-wrapper .create-account-row .form-row-wrapper .form-col.full-width {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.create-account-page-wrapper .create-account-row .form-row-wrapper .form-col .form-group {
+    margin-bottom: 30px;
+}
+
+.create-account-page-wrapper .create-account-row .btn-wrapper {
+    margin-top: 17px;
+}

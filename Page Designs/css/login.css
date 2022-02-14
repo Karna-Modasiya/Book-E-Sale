@@ -1,0 +1,84 @@
+.create-account-page-wrapper .container .container-inner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 40px;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .list-container {
+    padding-bottom: 140px;
+}
+
+.bullet-list {
+    padding: 0 !important;
+}
+
+.bullet-list li {
+    position: relative;
+    padding: 0 0 0 15px;
+    color: #212121;
+}
+
+.bullet-list li::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 6px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #333
+}
+
+.bullet-list li+li {
+    margin-top: 4px
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .personal-information {
+    margin-bottom: 32px;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .personal-information-header {
+    margin-bottom: 20px;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .personal-information-header h2 {
+    margin-bottom: 32px;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .personal-information-header h2::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper p {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .form-row-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .form-row-wrapper .form-col.full-width {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.create-account-page-wrapper .container .container-inner .col-wrapper .form-row-wrapper .form-col .form-group {
+    margin-bottom: 30px;
+}
+
+.btn-wrapper {
+    margin-top: 17px;
+}
+
+.create-acc-btn {
+    width: 220px;
+}
